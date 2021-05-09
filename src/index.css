@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: rgb(100, 200, 200);
+    
+}
+
+h3 {
+    color: hsl(253, 64%, 34%);
+}
+/*AppHeader, AppFooter*/
+header, footer {
+    width: 100%;
+    color: black;
+    position: fixed;
+    text-align: center;
+    z-index: 999;
+}
+
+header {
+    background-color: rgb(200, 200, 150);
+    top: 0;
+    height: 10%;
+    border-bottom: 2px solid black;
+    padding-top: 50px;
+}
+
+footer {
+    background-color: rgb(200, 200, 150);
+    bottom: 0;
+    border-top: 2px solid black;
+    height: 5%;
+    padding-top: 5px;
+}

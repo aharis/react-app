@@ -1,0 +1,78 @@
+.logo {
+    float: left;
+    margin-left: 10px;
+}
+
+.logo h2 {
+    color: hsl(253, 64%, 34%);
+}
+.nav {
+    float: right;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.navigator {
+    margin-top: 5%;
+
+}
+
+.container {
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+}
+
+/*table for Course*/
+table {
+    margin: 24px auto;
+    border: 2px solid blue;
+}
+
+table th {
+    background-color: blue;
+    color: white;
+}
+
+table tr {
+    background-color: white;
+    height: 18px;
+}
+
+table tr:nth-child(2n+1) {
+    background-color: white;
+}
+
+table td {
+    padding: 2px 8px;
+    border-right: blue;
+}
+
+table td:last-child {
+    padding: 2px 8px;
+    border-right: none;
+}
+
+
+/* Input form from Course.js*/
+.input-form {
+    width: 50%;
+    margin: 24px auto;
+}
+
+.label-form {
+    margin: 12px 0;
+    text-align: center;
+}
+
+.delete {
+    float: left;
+}
+
+.back {
+    float: right;
+}
+
+form #id {
+    text-align: center;
+}
